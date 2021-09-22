@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7e24f2ff-ec26-43bb-a99b-4ef4fab714ec</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PPs.py</StartupFile>
+    <StartupFile>test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PPs.py" />
+    <Compile Include="test.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="input.txt" />
+    <Content Include="BruteForce\input.txt" />
+    <Content Include="DFS,BFS\input.txt" />
+    <Content Include="Greedy\input.txt" />
+    <Content Include="README.md" />
+    <Content Include="Simulation\input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BruteForce\" />
+    <Folder Include="Greedy\" />
+    <Folder Include="DFS,BFS\" />
+    <Folder Include="Simulation\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
