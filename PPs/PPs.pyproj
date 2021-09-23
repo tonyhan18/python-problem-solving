@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7e24f2ff-ec26-43bb-a99b-4ef4fab714ec</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test.py</StartupFile>
+    <StartupFile>Simulation\test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="test.py" />
+    <Compile Include="BruteForce\16968.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simulation\test.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BruteForce\input.txt" />
